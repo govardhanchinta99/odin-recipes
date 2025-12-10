@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(233, 130, 12, 0.232);
+}
 #title {
     width: 300px;
     text-align: center;
     background-color: rgba(34, 133, 245, 0.201);
-    border: 1px solid black;
+    border: 1px solid rgba(31, 24, 24, 0.377);
     margin: 40px auto;
+    font-family: cursive;
 }
 
 .adjust-text {
@@ -19,7 +23,8 @@
     color: black;
     margin: 30px auto;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    text-align: center;
 }
 
 .adjust-img {
@@ -34,5 +39,5 @@
     height: 390px;
     display: inline-block;
     list-style: none;
-    margin: ;
+    margin-left: 150px;
 }
