@@ -3,17 +3,32 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(233, 130, 12, 0.232);
+}
+
 #home {
+    display: inline-block;
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+#home:hover {
+    background-color: #b3d1eab0;
+    color: rgba(0, 0, 0, 0.301);
 }
 
 #title {
     width: 785px;
     height: 55px;
     font-size: 46px;
-    margin: 0px 0px 16px 25px;
+    margin: 0px 0px 16px 50px;
 }
 
 .adjust-img {
